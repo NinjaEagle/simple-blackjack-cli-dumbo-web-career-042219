@@ -15,14 +15,21 @@ end
 
 def prompt_user
   # code #prompt_user here
+  puts "Type 'h' to hit or 's' to stay"
 end
 
 def get_user_input
   # code #get_user_input here
+  input=gets.chomp
 end
 
-def end_game
+def end_game (card_total)
   # code #end_game here
+  sum=0
+  2.times do 
+    sum+= deal_card
+  end
+  display_card_total
 end
 
 def initial_round
