@@ -25,15 +25,16 @@ end
 
 def end_game (card_total)
   # code #end_game here
+  puts ("Sorryy you hit #{card_total}. Thanks for playing!")
+end
+
+def initial_round
+  # code #initial_round here
   sum=0
   2.times do
     sum+= deal_card
   end
   display_card_total
-end
-
-def initial_round
-  # code #initial_round here
 end
 
 def hit?
