@@ -26,7 +26,7 @@ end
 def end_game (card_total)
   # code #end_game here
   sum=0
-  2.times do 
+  2.times do
     sum+= deal_card
   end
   display_card_total
